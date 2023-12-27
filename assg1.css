@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#center{
+    display: flex;
+    gap: 20px;
+    
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+a{
+    gap: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    margin: 10px 20px; */
+}
+a:hover{
+    text-decoration: underline;
+}
